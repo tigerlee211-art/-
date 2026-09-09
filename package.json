@@ -1,0 +1,31 @@
+{
+  "name": "naver-blog-autopilot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4123",
+    "build": "next build",
+    "start": "next start -p 4123",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx scripts/run-tests.mts"
+  },
+  "dependencies": {
+    "next": "15.5.25",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "better-sqlite3": "^11.3.0",
+    "playwright": "^1.48.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^22.5.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.1",
+    "@types/better-sqlite3": "^7.6.11",
+    "tsx": "^4.19.1",
+    "eslint": "^9.11.1",
+    "eslint-config-next": "15.5.4"
+  }
+}
