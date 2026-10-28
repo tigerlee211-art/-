@@ -1,19 +1,27 @@
 # voice.md
 
 Built 2026-10-28 from three of the user's own reels (all marked [광고]).
-Source: the burned-in captions, read frame by frame. The audio was not
-transcribed (no speech model was reachable), so this assumes the captions match
-what is said.
+Source: the burned-in captions, read frame by frame. The narration is TTS and
+follows the captions line by line. Updated the same day with the creator's answers: TTS voice,
+ads-only shopping creator, main audience 3–7 year olds.
 
 ## Who is talking, to whom
 
-- A Korean wife and mom, married, with a baby or toddler and a young kid. She works
-  (퇴근), comes home tired, and unwinds with her husband after the kids go to bed
-  (육퇴하고 남편이랑).
-- She talks to other moms and women her age, like a friend who already tried
-  the thing. She is not an expert or a reviewer.
-- Every reel is a product recommendation inside a small personal story. It ends
-  with a comment-keyword ask (comment → DM link).
+- A shopping shorts creator. **Every reel is sponsored ([광고])**. There are no
+  non-ad reels, so every script is a product recommendation that ends with a
+  comment-keyword ask (comment → DM link).
+- **Narration is TTS**, not the creator's own voice (see "Writing for TTS" below).
+- The on-screen narrator is a Korean mom persona: married, works (퇴근), and watches
+  kids' videos with her husband after the kids go to bed (육퇴하고 남편이랑).
+  She talks to other moms like a friend who already tried the thing.
+  She is not an expert or a reviewer.
+- **Main audience: parents of 3–7 year olds.** Default products are kids' toys,
+  party items, and play gear for that age. Baby and infant products
+  (strollers, baby cams and the like) come up only occasionally. Home and
+  self-care items like the miniature house also appear.
+- The persona's anecdotes (husband's reaction, friend's advice) are a framing device.
+  What the product does in the story must match what it really does. Don't give it
+  features, results or reviews it doesn't have.
 
 ## Language
 
@@ -32,6 +40,18 @@ what is said.
   The category plus one hook detail stands in for the brand.
 - Other people bring the product in: 남편 (husband), 파티 플래너 친구
   (party-planner friend). A third person's reaction or advice opens the story.
+
+## Writing for TTS
+
+- Spell out numbers the way they should be read: 세 살, 다섯 개. A digit is
+  fine on screen, but the spoken line uses words.
+- Avoid English words, abbreviations, symbols and parentheses. The TTS misreads them.
+  Fixed loanwords written in Hangul (미니어처, 캠, 힐링) are fine.
+- Each caption card is one TTS phrase. The card break (/) is the pause, so
+  break where a person would breathe.
+- Write the comment keyword in quotes, and only in Hangul ('생일', '카메라').
+- TTS has no tone, so the ending carries the feeling: ~더라고요, ~거 있죠,
+  ~거든요. Avoid flat, choppy endings like ~다 or ~함.
 
 ## Structure (17–21 seconds, all three reels)
 
@@ -75,11 +95,11 @@ LAST 2s    ASK       댓글에 '키워드' 남겨주세요. One short Korean key
 
 ## Gaps (ask before writing if the reel needs them)
 
-- What the audio actually is: her own voice, a voiceover, or TTS.
-- Her handle, niche label, and whether she does non-sponsored reels.
-- Kids' ages. The reels suggest a baby and a 3–7 year old, but that's not confirmed.
+- The creator's handle and the TTS voice/service in use (if a script needs a voice-specific fix).
+- Real product facts for each new reel: what it does, what age it's for, what's in the box.
+  Don't write around a missing fact.
 
-## Her three reels, verbatim
+## The three reels, verbatim
 
 1. 미니어처 하우스 (17.7s)
    남편이 집에 들어오더니 / 거실 보고 / 눈이 동그래지더라고요 / 제가 결혼 전부터 /
